@@ -243,8 +243,14 @@
 <p><code>git clone</code>으로 받아왔다면 이과정은 필요없다.</p>
 <h3 id="원격-저장소에-올리기"><a href="#원격-저장소에-올리기" class="headerlink" title="원격 저장소에 올리기"></a>원격 저장소에 올리기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
 
+<h3 id="브랜치-만들기"><a href="#브랜치-만들기" class="headerlink" title="브랜치 만들기"></a>브랜치 만들기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch &lt;브랜치 이름&gt;</span><br></pre></td></tr></table></figure>
+<p>옵션을 지정하지 않고 <code>git branch</code> 명령어를 실행하면 브랜치 목록 전체를 확인가능하다.</p>
+<h3 id="브랜치-삭제하기"><a href="#브랜치-삭제하기" class="headerlink" title="브랜치 삭제하기"></a>브랜치 삭제하기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d &lt;브랜치 이름&gt;</span><br></pre></td></tr></table></figure>
 
-
+<h3 id="브랜치-전환하기"><a href="#브랜치-전환하기" class="headerlink" title="브랜치 전환하기"></a>브랜치 전환하기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout &lt;브랜치 이름&gt;</span><br></pre></td></tr></table></figure>
+<p>checkout할때 <code>git checkout -b &lt;브랜치 이름&gt;</code> -b를 입력하면 브랜치 작성과 체크아웃까지 한번에 된다</p>
+<h3 id="브랜치-병합하기"><a href="#브랜치-병합하기" class="headerlink" title="브랜치 병합하기"></a>브랜치 병합하기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge &lt;대상이되는 브랜치 이름&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="rebase-로-병합하기"><a href="#rebase-로-병합하기" class="headerlink" title="rebase 로 병합하기"></a>rebase 로 병합하기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git rebase &lt;대상이되는 브랜치 이름&gt;</span><br></pre></td></tr></table></figure>
 
                 
             </div>
